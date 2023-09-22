@@ -16,5 +16,16 @@ namespace PigLatinTranslator
         {
             InitializeComponent();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtEnglish.Text = "";
+            txtPigLatin.Text = "";
+        }
     }
 }
